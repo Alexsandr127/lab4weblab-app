@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "593251738de06a14f5b6541cd8843eeb",
+    "packages": [
+        {
+            "name": "suhanov/weblab-lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/suhanow/suhanov-weblab-lib.git",
+                "reference": "209f87c5cfbbee06482bfe7e6e83239653a06018"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/suhanow/suhanov-weblab-lib/get/209f87c5cfbbee06482bfe7e6e83239653a06018.zip",
+                "reference": "209f87c5cfbbee06482bfe7e6e83239653a06018",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "overtrue/phplint": "8.0.x-dev",
+                "phpunit/phpunit": "10.0.x-dev"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sukhanov\\WeblabLib\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Alexsanfr127",
+                    "email": "suhanof656@gmail.com"
+                }
+            ],
+            "description": "lab 4 weblab-lib",
+            "homepage": "https://bitbucket.org/suhanow/suhanov-weblab-lib",
+            "support": {
+                "source": "https://bitbucket.org/suhanow/suhanov-weblab-lib/src/209f87c5cfbbee06482bfe7e6e83239653a06018/?at=master"
+            },
+            "time": "2021-11-20T10:34:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "suhanov/weblab-lib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
